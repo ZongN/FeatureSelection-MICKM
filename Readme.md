@@ -13,6 +13,10 @@ You can call the feature selection method in my [*FeatureSelection*](https://git
 
 First of all, you need to pull the *CallFAMICKM.R* into the main *Evaluate* folder. And check the paths are correct.
 
+Second, put the MICKM folder under the *FeatureSelection/* .
+
+Third, you need to add the call function source code in the [*Lib.R*](https://github.com/ZongN/FeatureSelection/blob/master/Evaluate/Lib.R). Put "source("CallFAMICKM.R",local = T)" into the .R file.
+
 The input and output are the same as other methods in my repositories.
 
 ---
